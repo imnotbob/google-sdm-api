@@ -32,6 +32,9 @@ metadata {
         attribute 'rawImg', 'string'
         attribute 'streamUrl', 'string'
 
+        attribute 'room', 'string'
+        attribute 'location', 'string'
+
         command 'createZoneDevice', [[name: 'name*', type: 'STRING', description: 'name of zone (must match name in Google Home)']]
     }
     
